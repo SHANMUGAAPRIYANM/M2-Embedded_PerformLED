@@ -6,7 +6,7 @@
 #include <avr/io.h>
 #include <util/delay.h>
 
-void switch_on();
-void switch_off();
+void PerformLED_on();
+void PerformLED_off();
 
 #endif
