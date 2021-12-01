@@ -7,7 +7,7 @@
 
 
 
-void switch_on()
+void PerformLED_on()
 {
     PORTB |=(1<<PORTB2);
 		PORTB &=~(1<<PORTB3);
